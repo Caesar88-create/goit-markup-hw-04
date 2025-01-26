@@ -370,7 +370,10 @@ p {
   border-radius: 4px;
   cursor: pointer;
   margin: auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn .transition {
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover {
@@ -548,6 +551,13 @@ p {
   letter-spacing: 0.02em;
 }
 
+.features-container-sm-f {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 8px;
+}
+
 .social-footer-list {
   fill: #f4f4fd;
   gap: 16px;
@@ -571,6 +581,14 @@ p {
   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-footer-sm .transition {
+.social-footer-sm:hover {
+  background-color: #31d0aa;
+}
+
+.social-footer-sm:focus {
+  background-color: #31d0aa; 
+}
+
+.transition {
   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
