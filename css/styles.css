@@ -521,8 +521,6 @@ p {
   overflow: hidden; 
 }
 
-/* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
-
 .overlay-text {
   font-weight: 400;
   font-size: 16px;
@@ -548,6 +546,7 @@ p {
 .app:hover .overlay-text,
 .app:focus .overlay-text {
   transform: translateY(0);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
 .portfolio-head {
@@ -637,6 +636,7 @@ p {
   gap: 24px;
   flex-direction: row;
   align-items: center;
+  gap: 16px;
 }
 
 .social-footer-list {
@@ -662,12 +662,9 @@ p {
   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-footer-sm:hover {
+.social-footer-sm:hover
+.social-footer-sm:focus  {
   background-color: #31d0aa;
-}
-
-.social-footer-sm:focus {
-  background-color: #31d0aa; 
 }
 
 .transition {
