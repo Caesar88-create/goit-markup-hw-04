@@ -270,7 +270,7 @@ p {
   padding-top: 8px;
 }
 
-.features-team-sm {
+.team-img {
 
 }
 
@@ -317,12 +317,6 @@ p {
   line-height: 1.5;
   color: #434455;
 }
-
-/*.team-section {
-  background-color: #F4F4FD;
-  align-items: center;
-  padding: 120px 0;
-}*/
 
 .team {
   background-color: #f4f4fd;
