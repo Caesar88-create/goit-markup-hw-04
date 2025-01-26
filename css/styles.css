@@ -50,7 +50,9 @@ p {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-}
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+  0px 1px 1px rgba(46, 47, 66, 0.16), 
+  0px 1px 6px rgba(46, 47, 66, 0.08);
 
 .header-container {
   display: flex;
@@ -60,6 +62,7 @@ p {
 .header-nav {
   display: flex;
   align-items: center;
+}
 }
 
 .header-logo {
@@ -89,6 +92,22 @@ p {
   gap: 40px;
   align-items: center;
   padding: 24px 0;
+}
+
+.header-studio {
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.header-studio::after .content {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .header-menu-link {
@@ -132,6 +151,14 @@ p {
   color: #404bbf;
 }
 
+.email {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phone {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .hero {
   background-color: #2e2f42;
   font-size: 56px;
@@ -140,6 +167,12 @@ p {
   letter-spacing: 0.02em;
   padding: 188px 0;
   margin: 0 auto;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg); 
+  max-width: 1440px; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .image-overlay img {
@@ -459,7 +492,7 @@ p {
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   box-sizing: border-box;
 }
 
@@ -508,6 +541,9 @@ p {
   margin-bottom: 16px;
   display: flex;
   align-items: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .social-footer-list {
@@ -530,4 +566,5 @@ p {
   height: 40px;
   justify-content: center;
   align-items: center;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
