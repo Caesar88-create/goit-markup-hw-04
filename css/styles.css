@@ -292,6 +292,13 @@ p {
   background-color: #404bbf;
 }
 
+.icon-sm {
+}
+
+.link-icon {
+  fill: #f4f4fd;
+}
+
 .features-icon-sm {
   border-radius: 50%;
   background-color: #4d5ae5;
