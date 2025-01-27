@@ -46,6 +46,7 @@ p {
   padding: 0 15px;
   margin: 0 auto;
   display: block;
+  height: 72px;
 }
 
 .page-header {
@@ -53,6 +54,7 @@ p {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
   0px 1px 1px rgba(46, 47, 66, 0.16), 
   0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
 .header-container {
   display: flex;
@@ -62,7 +64,6 @@ p {
 .header-nav {
   display: flex;
   align-items: center;
-}
 }
 
 .header-logo {
@@ -81,7 +82,6 @@ p {
   line-height: 1.17;
   letter-spacing: -0, 03em;
   color: #4d5ae5;
-  padding: 24px 0;
   margin-right: 76px;
 }
 
@@ -91,7 +91,6 @@ p {
   display: flex;
   gap: 40px;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-studio {
@@ -117,7 +116,6 @@ p {
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
-  padding: 24px 0;
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -158,15 +156,22 @@ p {
 .header-contacts {
   font-style: normal;
   margin-left: auto;
+}
+
+.header-contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-contacts-link {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
   display: flex;
   align-items: center;
-  padding: 24px 0;
   margin-left: auto;
-  gap: 40px;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -528,11 +533,6 @@ p {
               0px 1px 1px rgba(46, 47, 66, 0.16), 
               0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-/*.pic-portfolio {
-  position: relative;
-  overflow: hidden; 
-} */
 
 .overlay-text {
   font-weight: 400;
