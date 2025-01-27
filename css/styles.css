@@ -46,7 +46,6 @@ p {
   padding: 0 15px;
   margin: 0 auto;
   display: block;
-  height: 72px;
 }
 
 .page-header {
@@ -83,6 +82,7 @@ p {
   letter-spacing: -0, 03em;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-menu-list {
@@ -118,10 +118,12 @@ p {
   line-height: 1.5;
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 24px 0;
 }
 
 .header-menu-link.current {
   position: relative;
+  padding: 24px 0;
 }
 
 .header-menu-link.current::after {
@@ -169,9 +171,8 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+  display: block;
+  padding: 24px 0;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -199,7 +200,6 @@ p {
   text-align: center;
   letter-spacing: 0.02em;
   padding: 188px 0;
-  margin: 0 auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
                     rgba(46, 47, 66, 0.7)), 
                     url(../images/peopleoffice1.jpg); 
@@ -207,7 +207,6 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
 }
 
@@ -256,12 +255,6 @@ p {
   width: calc((100% - 72px) / 4);
 }
 
-.text-container-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-              0px 1px 1px rgba(46, 47, 66, 0.16), 
-              0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
 .features-container {
   display: flex;
   align-items: center;
@@ -281,16 +274,12 @@ p {
   padding-top: 8px;
 }
 
-.team-img {
-
-}
-
 .link-icon-prt {
   border-radius: 50%;
   background-color: #4d5ae5;
   fill: #f4f4fd;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -301,9 +290,6 @@ p {
 .link-icon-prt:hover,
 .link-icon-prt:focus {
   background-color: #404bbf;
-}
-
-.icon-sm {
 }
 
 .link-icon {
@@ -369,6 +355,7 @@ p {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .team-h {
@@ -391,6 +378,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 [type] {
@@ -452,19 +440,18 @@ p {
 }
 
 .portfolio {
-  text-align: center;
+  font-weight: 700; 
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
   margin-bottom: 72px;
 }
 
 .portfolio-nav {
   display: flex;
-  padding-bottom: 112px 0;
-  padding-top: 48px 0;
-  margin-left: auto;
-  gap: 24px;
-  padding: 0 15px;
-  margin: 0 auto;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -516,10 +503,6 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  align-items: center;
-  margin-bottom: 8px;
-  display: flex;
-  padding: 120px 0 120px 0;
 }
 
 .app {
@@ -587,10 +570,7 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  display: flex;
-  align-items: baseline;
+  padding: 100px 0;
   box-sizing: border-box;
 }
 
@@ -631,15 +611,9 @@ p {
   margin-right: 120px;
 }
 
-.social-footer {
-  text-align: center;
-}
-
 .social-footer-h {
   color: #ffffff;
   margin-bottom: 16px;
-  display: flex;
-  align-items: center;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -671,14 +645,8 @@ p {
 }
 
 .social-footer-sm {
-  border-radius: 50%;
-  background-color: #4d5ae5;
-  fill: #f4f4fd;
   width: 40px;
   height: 40px;
-  justify-content: center;
-  align-items: center;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .features-container-sm-f {
@@ -690,8 +658,8 @@ p {
   border-radius: 50%;
   background-color: #4d5ae5;
   fill: #f4f4fd;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
